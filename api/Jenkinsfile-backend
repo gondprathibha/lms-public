@@ -6,7 +6,7 @@ pipeline {
 
     environment {
 
-    DOCKERHUB_CREDENTIALS = credentials('dockeruser')
+    DOCKERHUB_CREDENTIALS = credentials('dockeruser2')
      registry = "prathibhagond/backend-lms"
         registryCredential = 'dockeruser'
         dockerImage = ''
